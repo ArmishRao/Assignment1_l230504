@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/onboarding_background"
+    android:orientation="vertical"
+    tools:context=".onBoardingScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore now \nto experience the benefits"
+        android:textSize="40sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore "
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        />
+    <Button
+        android:id="@+id/onBoardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="Get Started"
+        android:background="#FF4444"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>
